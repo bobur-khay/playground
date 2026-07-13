@@ -1,48 +1,493 @@
 
-# CSV Changelog - 29/02/2024
+# CSV Changelog - 13/07/2026
 
 [Old CSV Path](assertions-csv/oldManual.csv)  
 [New CSV Path](assertions-csv/manual.csv)
 
 
+## ADDED
+
+- `td-action-arrays` was added
+- `td-action-names` was added
+- `td-action-names_at-type` was added
+- `td-action-names_description` was added
+- `td-action-names_descriptions` was added
+- `td-action-names_forms` was added
+- `td-action-names_idempotent` was added
+- `td-action-names_input` was added
+- `td-action-names_output` was added
+- `td-action-names_safe` was added
+- `td-action-names_title` was added
+- `td-action-names_titles` was added
+- `td-action-names_uriVariables` was added
+- `td-action-objects` was added
+- `td-action-objects_input` was added
+- `td-action-objects_output` was added
+- `td-actions` was added
+- `td-actions_existence` was added
+- `td-actions_uniqueness` was added
+- `td-additionalExpectedResponse-contentType` was added
+- `td-additionalExpectedResponse-missing-contentType` was added
+- `td-additionalExpectedResponse-noSchemaWithoutPayload` was added
+- `td-additionalExpectedResponse-schema` was added
+- `td-array-type` was added
+- `td-arrays` was added
+- `td-arrays_forms` was added
+- `td-arrays_links` was added
+- `td-binding-multiple-ops` was added
+- `td-bindings-correct-methods` was added
+- `td-boolean-type` was added
+- `td-class-type` was added
+- `td-context` was added
+- `td-context-default-language` was added
+- `td-context-ns-thing-mandatory` was added
+- `td-context-ns-thing-map-of-namespaces` was added
+- `td-context-ns-thing-optional` was added
+- `td-context-toplevel` was added
+- `td-data-schema` was added
+- `td-data-schema-arrays` was added
+- `td-data-schema-arrays_enum` was added
+- `td-data-schema-arrays_oneOf` was added
+- `td-data-schema-arrays_required` was added
+- `td-data-schema-objects` was added
+- `td-data-schema-objects-arrays` was added
+- `td-data-schema_at-type` was added
+- `td-data-schema_const` was added
+- `td-data-schema_contentEncoding` was added
+- `td-data-schema_contentMediaType` was added
+- `td-data-schema_description` was added
+- `td-data-schema_descriptions` was added
+- `td-data-schema_enum` was added
+- `td-data-schema_exclusiveMaximum-IntegerSchema` was added
+- `td-data-schema_exclusiveMaximum-NumberSchema` was added
+- `td-data-schema_exclusiveMinimum-IntegerSchema` was added
+- `td-data-schema_exclusiveMinimum-NumberSchema` was added
+- `td-data-schema_format` was added
+- `td-data-schema_items` was added
+- `td-data-schema_maxItems` was added
+- `td-data-schema_maxLength` was added
+- `td-data-schema_maximum-IntegerSchema` was added
+- `td-data-schema_maximum-NumberSchema` was added
+- `td-data-schema_minItems` was added
+- `td-data-schema_minLength` was added
+- `td-data-schema_minimum-IntegerSchema` was added
+- `td-data-schema_minimum-NumberSchema` was added
+- `td-data-schema_multipleOf-IntegerSchema` was added
+- `td-data-schema_multipleOf-NumberSchema` was added
+- `td-data-schema_oneOf` was added
+- `td-data-schema_pattern` was added
+- `td-data-schema_properties` was added
+- `td-data-schema_readOnly` was added
+- `td-data-schema_required` was added
+- `td-data-schema_title` was added
+- `td-data-schema_titles` was added
+- `td-data-schema_type` was added
+- `td-data-schema_unit` was added
+- `td-data-schema_writeOnly` was added
+- `td-datetime-recommended-type` was added
+- `td-datetime-type` was added
+- `td-default-binding-method` was added
+- `td-default-context-expansion` was added
+- `td-event-arrays` was added
+- `td-event-names` was added
+- `td-event-names_at-type` was added
+- `td-event-names_cancellation` was added
+- `td-event-names_data` was added
+- `td-event-names_dataResponse` was added
+- `td-event-names_description` was added
+- `td-event-names_descriptions` was added
+- `td-event-names_forms` was added
+- `td-event-names_subscription` was added
+- `td-event-names_title` was added
+- `td-event-names_titles` was added
+- `td-event-names_uriVariables` was added
+- `td-event-objects` was added
+- `td-event-objects_cancellation` was added
+- `td-event-objects_data` was added
+- `td-event-objects_dataResponse` was added
+- `td-event-objects_subscription` was added
+- `td-event-trigger` was added
+- `td-events` was added
+- `td-events_existence` was added
+- `td-events_uniqueness` was added
+- `td-expectedResponse-defined-contentType` was added
+- `td-expectedResponse-missing-contentType` was added
+- `td-form-additional-mediatype-metadata` was added
+- `td-form-context-submission-target` was added
+- `td-form-href-relative` was added
+- `td-format-validation-known-values` was added
+- `td-forms` was added
+- `td-integer-type` was added
+- `td-json-open_utf-8` was added
+- `td-links` was added
+- `td-map-type` was added
+- `td-metadata-mandatory` was added
+- `td-multi-languages` was added
+- `td-multi-languages-consistent` was added
+- `td-multi-languages_descriptions` was added
+- `td-multi-languages_titles` was added
+- `td-multilanguage-language-tag` was added
+- `td-multilanguage-value` was added
+- `td-number-type` was added
+- `td-objects` was added
+- `td-objects_actions` was added
+- `td-objects_descriptions` was added
+- `td-objects_events` was added
+- `td-objects_properties` was added
+- `td-objects_schemaDefinitions` was added
+- `td-objects_securityDefinitions` was added
+- `td-objects_uriVariables` was added
+- `td-objects_version` was added
+- `td-op-for-action` was added
+- `td-op-for-event` was added
+- `td-op-for-property` was added
+- `td-op-for-thing` was added
+- `td-privacy-consideration-access-control-mandatory-person` was added
+- `td-privacy-consideration-min-explicit-pii` was added
+- `td-privacy-distributed-ids` was added
+- `td-privacy-id-metadata` was added
+- `td-processor` was added
+- `td-properties` was added
+- `td-properties_existence` was added
+- `td-properties_uniqueness` was added
+- `td-property-arrays` was added
+- `td-property-names` was added
+- `td-property-names_at-type` was added
+- `td-property-names_const` was added
+- `td-property-names_contentEncoding` was added
+- `td-property-names_contentMediaType` was added
+- `td-property-names_description` was added
+- `td-property-names_descriptions` was added
+- `td-property-names_enum` was added
+- `td-property-names_exclusiveMaximum` was added
+- `td-property-names_exclusiveMinimum` was added
+- `td-property-names_format` was added
+- `td-property-names_forms` was added
+- `td-property-names_items` was added
+- `td-property-names_maxItems` was added
+- `td-property-names_maxLength` was added
+- `td-property-names_maximum` was added
+- `td-property-names_minItems` was added
+- `td-property-names_minLength` was added
+- `td-property-names_minimum` was added
+- `td-property-names_multipleOf` was added
+- `td-property-names_observable` was added
+- `td-property-names_oneOf` was added
+- `td-property-names_properties` was added
+- `td-property-names_readOnly` was added
+- `td-property-names_required` was added
+- `td-property-names_title` was added
+- `td-property-names_titles` was added
+- `td-property-names_type` was added
+- `td-property-names_unit` was added
+- `td-property-names_uriVariables` was added
+- `td-property-names_writeOnly` was added
+- `td-rel-type-case-insensitive` was added
+- `td-rel-type-lowercase` was added
+- `td-security` was added
+- `td-security-activation` was added
+- `td-security-auth-private-data` was added
+- `td-security-bearer-format-extensions` was added
+- `td-security-bearer-format-extensions_alg` was added
+- `td-security-bearer-format-extensions_format` was added
+- `td-security-body-name-json-pointer` was added
+- `td-security-body-name-json-pointer-array` was added
+- `td-security-combo-deprecation` was added
+- `td-security-combo-exclusive-oneof-or-allof` was added
+- `td-security-dtls-1-2` was added
+- `td-security-in-uri-variable` was added
+- `td-security-mandatory` was added
+- `td-security-no-earlier-tls-or-dtls` was added
+- `td-security-no-private-security-data` was added
+- `td-security-oauth2-client-flow` was added
+- `td-security-oauth2-client-flow-no-auth` was added
+- `td-security-oauth2-code-flow` was added
+- `td-security-other-protocol` was added
+- `td-security-overrides` was added
+- `td-security-scheme-name` was added
+- `td-security-schemes` was added
+- `td-security-security-vocab-auto-in-no-name` was added
+- `td-security-tls-1-2` was added
+- `td-security-tls-1-3` was added
+- `td-security-uri-variables-distinct` was added
+- `td-security-vuln-auto` was added
+- `td-string-type` was added
+- `td-structured-data-schema` was added
+- `td-text-at-direction` was added
+- `td-title-description` was added
+- `td-title-description_descriptions` was added
+- `td-title-description_titles` was added
+- `td-titles-descriptions` was added
+- `td-uriVariables-dataschema` was added
+- `td-uriVariables-names` was added
+- `td-version` was added
+- `td-vocab-actions--Thing` was added
+- `td-vocab-additionalResponses--Form` was added
+- `td-vocab-alg--BearerSecurityScheme` was added
+- `td-vocab-allOf--ComboSecurityScheme` was added
+- `td-vocab-anchor--Link` was added
+- `td-vocab-at-context--Thing` was added
+- `td-vocab-at-type--DataSchema` was added
+- `td-vocab-at-type--InteractionAffordance` was added
+- `td-vocab-at-type--SecurityScheme` was added
+- `td-vocab-at-type--Thing` was added
+- `td-vocab-authorization--BearerSecurityScheme` was added
+- `td-vocab-authorization--OAuth2SecurityScheme` was added
+- `td-vocab-base--Thing` was added
+- `td-vocab-cancellation--EventAffordance` was added
+- `td-vocab-const--DataSchema` was added
+- `td-vocab-contentCoding--Form` was added
+- `td-vocab-contentEncoding--StringSchema` was added
+- `td-vocab-contentMediaType--StringSchema` was added
+- `td-vocab-contentType--AdditionalExpectedResponse` was added
+- `td-vocab-contentType--ExpectedResponse` was added
+- `td-vocab-contentType--Form` was added
+- `td-vocab-created--Thing` was added
+- `td-vocab-data--EventAffordance` was added
+- `td-vocab-dataResponse--EventAffordance` was added
+- `td-vocab-default--DataSchema` was added
+- `td-vocab-description--DataSchema` was added
+- `td-vocab-description--InteractionAffordance` was added
+- `td-vocab-description--SecurityScheme` was added
+- `td-vocab-description--Thing` was added
+- `td-vocab-descriptions--DataSchema` was added
+- `td-vocab-descriptions--InteractionAffordance` was added
+- `td-vocab-descriptions--SecurityScheme` was added
+- `td-vocab-descriptions--Thing` was added
+- `td-vocab-enum--DataSchema` was added
+- `td-vocab-events--Thing` was added
+- `td-vocab-exclusiveMaximum--IntegerSchema` was added
+- `td-vocab-exclusiveMaximum--NumberSchema` was added
+- `td-vocab-exclusiveMinimum--IntegerSchema` was added
+- `td-vocab-exclusiveMinimum--NumberSchema` was added
+- `td-vocab-flow--OAuth2SecurityScheme` was added
+- `td-vocab-format--BearerSecurityScheme` was added
+- `td-vocab-format--DataSchema` was added
+- `td-vocab-forms--InteractionAffordance` was added
+- `td-vocab-forms--Thing` was added
+- `td-vocab-href--Form` was added
+- `td-vocab-href--Link` was added
+- `td-vocab-hreflang--Link` was added
+- `td-vocab-id--Thing` was added
+- `td-vocab-idempotent--ActionAffordance` was added
+- `td-vocab-identity--PSKSecurityScheme` was added
+- `td-vocab-in--APIKeySecurityScheme` was added
+- `td-vocab-in--BasicSecurityScheme` was added
+- `td-vocab-in--BearerSecurityScheme` was added
+- `td-vocab-in--DigestSecurityScheme` was added
+- `td-vocab-input--ActionAffordance` was added
+- `td-vocab-instance--VersionInfo` was added
+- `td-vocab-items--ArraySchema` was added
+- `td-vocab-links--Thing` was added
+- `td-vocab-maxItems--ArraySchema` was added
+- `td-vocab-maxLength--StringSchema` was added
+- `td-vocab-maximum--IntegerSchema` was added
+- `td-vocab-maximum--NumberSchema` was added
+- `td-vocab-minItems--ArraySchema` was added
+- `td-vocab-minLength--StringSchema` was added
+- `td-vocab-minimum--IntegerSchema` was added
+- `td-vocab-minimum--NumberSchema` was added
+- `td-vocab-model--VersionInfo` was added
+- `td-vocab-modified--Thing` was added
+- `td-vocab-multipleOf--IntegerSchema` was added
+- `td-vocab-multipleOf--NumberSchema` was added
+- `td-vocab-name--APIKeySecurityScheme` was added
+- `td-vocab-name--BasicSecurityScheme` was added
+- `td-vocab-name--BearerSecurityScheme` was added
+- `td-vocab-name--DigestSecurityScheme` was added
+- `td-vocab-observable--PropertyAffordance` was added
+- `td-vocab-oneOf--ComboSecurityScheme` was added
+- `td-vocab-oneOf--DataSchema` was added
+- `td-vocab-op--Form` was added
+- `td-vocab-op--Form_cancelaction` was added
+- `td-vocab-op--Form_invokeaction` was added
+- `td-vocab-op--Form_observeallproperties` was added
+- `td-vocab-op--Form_observeproperty` was added
+- `td-vocab-op--Form_queryaction` was added
+- `td-vocab-op--Form_queryallactions` was added
+- `td-vocab-op--Form_readallproperties` was added
+- `td-vocab-op--Form_readmultipleproperties` was added
+- `td-vocab-op--Form_readproperty` was added
+- `td-vocab-op--Form_subscribeallevents` was added
+- `td-vocab-op--Form_subscribeevent` was added
+- `td-vocab-op--Form_unobserveallproperties` was added
+- `td-vocab-op--Form_unobserveproperty` was added
+- `td-vocab-op--Form_unsubscribeallevents` was added
+- `td-vocab-op--Form_unsubscribeevent` was added
+- `td-vocab-op--Form_writeallproperties` was added
+- `td-vocab-op--Form_writemultipleproperties` was added
+- `td-vocab-op--Form_writeproperty` was added
+- `td-vocab-output--ActionAffordance` was added
+- `td-vocab-pattern--StringSchema` was added
+- `td-vocab-profile--Thing` was added
+- `td-vocab-properties--ObjectSchema` was added
+- `td-vocab-properties--Thing` was added
+- `td-vocab-proxy--SecurityScheme` was added
+- `td-vocab-qop--DigestSecurityScheme` was added
+- `td-vocab-readOnly--DataSchema` was added
+- `td-vocab-refresh--OAuth2SecurityScheme` was added
+- `td-vocab-rel--Link` was added
+- `td-vocab-required--ObjectSchema` was added
+- `td-vocab-response--Form` was added
+- `td-vocab-safe--ActionAffordance` was added
+- `td-vocab-schema--AdditionalExpectedResponse` was added
+- `td-vocab-schemaDefinitions--Thing` was added
+- `td-vocab-scheme--SecurityScheme` was added
+- `td-vocab-scheme--SecurityScheme_apikey` was added
+- `td-vocab-scheme--SecurityScheme_auto` was added
+- `td-vocab-scheme--SecurityScheme_basic` was added
+- `td-vocab-scheme--SecurityScheme_bearer` was added
+- `td-vocab-scheme--SecurityScheme_digest` was added
+- `td-vocab-scheme--SecurityScheme_nosec` was added
+- `td-vocab-scheme--SecurityScheme_oauth2` was added
+- `td-vocab-scheme--SecurityScheme_psk` was added
+- `td-vocab-scopes--Form` was added
+- `td-vocab-scopes--OAuth2SecurityScheme` was added
+- `td-vocab-security--Form` was added
+- `td-vocab-security--Thing` was added
+- `td-vocab-securityDefinitions--Thing` was added
+- `td-vocab-sizes--Link` was added
+- `td-vocab-subprotocol--Form` was added
+- `td-vocab-subscription--EventAffordance` was added
+- `td-vocab-success--AdditionalExpectedResponse` was added
+- `td-vocab-support--Thing` was added
+- `td-vocab-synchronous--ActionAffordance` was added
+- `td-vocab-title--DataSchema` was added
+- `td-vocab-title--InteractionAffordance` was added
+- `td-vocab-title--Thing` was added
+- `td-vocab-titles--DataSchema` was added
+- `td-vocab-titles--InteractionAffordance` was added
+- `td-vocab-titles--Thing` was added
+- `td-vocab-token--OAuth2SecurityScheme` was added
+- `td-vocab-type--DataSchema` was added
+- `td-vocab-type--DataSchema_array` was added
+- `td-vocab-type--DataSchema_boolean` was added
+- `td-vocab-type--DataSchema_integer` was added
+- `td-vocab-type--DataSchema_null` was added
+- `td-vocab-type--DataSchema_number` was added
+- `td-vocab-type--DataSchema_object` was added
+- `td-vocab-type--DataSchema_string` was added
+- `td-vocab-type--Link` was added
+- `td-vocab-unit--DataSchema` was added
+- `td-vocab-uriVariables--InteractionAffordance` was added
+- `td-vocab-uriVariables--Thing` was added
+- `td-vocab-version--Thing` was added
+- `td-vocab-writeOnly--DataSchema` was added
+- `tm-compose-instanceName` was added
+- `tm-compose-name-collision` was added
+- `tm-compose-submodel` was added
+- `tm-context-requirement` was added
+- `tm-extend` was added
+- `tm-identification` was added
+- `tm-placeholder-multiple-placeholders` was added
+- `tm-placeholder-object-serialization` was added
+- `tm-placeholder-pattern` was added
+- `tm-placeholder-retyping` was added
+- `tm-placeholder-usecase` was added
+- `tm-placeholder-value` was added
+- `tm-protocol-security-restriction` was added
+- `tm-rel-type-maximum` was added
+- `tm-td-generation-inconsistencies` was added
+- `tm-td-generation-processor-imports` was added
+- `tm-td-generation-processor-optional` was added
+- `tm-td-generation-processor-type` was added
+- `tm-tmOptional` was added
+- `tm-tmOptional-JSONPointer` was added
+- `tm-tmOptional-array` was added
+- `tm-tmOptional-resolver` was added
+- `tm-tmRef-usecase` was added
+- `tm-tmRef1` was added
+- `tm-versioning-2` was added
+- `well-known-operation-types-only` was added
+
+
 ## REMOVED
 
+- `td-default-http-method` was removed
+- `td-default-http-method_get` was removed
+- `td-default-http-method_post` was removed
+- `td-default-http-method_put` was removed
 - `td-privacy-immutable-id-as-property` was removed
 - `security-context-secure-fetch` was removed
+- `td-context-ns-td10-namespacev10` was removed
+- `td-default-AdditionalResponseContentType` was removed
 
 
 ## LINE-CHANGE
 
-- `td-privacy-mutable-identifiers` was moved from Line 51 to 50
-- `td-privacy-temp-id-metadata` was moved from Line 52 to 51
-- `td-security-body-name-json-pointer-type` was moved from Line 53 to 52
-- `td-security-inj-no-intl-markup` was moved from Line 54 to 53
-- `td-security-jsonld-expansion` was moved from Line 56 to 54
-- `td-security-mutual-auth-td` was moved from Line 57 to 55
-- `td-security-no-execution` was moved from Line 58 to 56
-- `td-security-oauth-limits` was moved from Line 59 to 57
-- `td-security-remote-context` was moved from Line 60 to 58
-- `td-security-server-auth-td` was moved from Line 61 to 59
-- `td-security-static-context` was moved from Line 62 to 60
-- `td-context-ns-td10-namespacev10` was moved from Line 63 to 61
-- `td-default-AdditionalResponseContentType` was moved from Line 64 to 62
-- `td-default-observable` was moved from Line 65 to 63
-- `td-processor-bidi-isolation` was moved from Line 66 to 64
-- `td-producer-mixed-direction` was moved from Line 67 to 65
-- `td-security-extension` was moved from Line 68 to 66
-- `td-text-direction-first-strong` was moved from Line 69 to 67
-- `td-text-direction-language-tag` was moved from Line 70 to 68
-- `tm-td-generation-processor-extends` was moved from Line 71 to 69
-- `tm-td-generation-processor-forms` was moved from Line 72 to 70
-- `tm-td-generation-processor-placeholder` was moved from Line 73 to 71
-- `tm-td-generation-processor-required` was moved from Line 74 to 72
-- `tm-derivation-validity` was moved from Line 75 to 73
-- `tm-overwrite-interaction` was moved from Line 76 to 74
-- `tm-overwrite-types` was moved from Line 77 to 75
-- `tm-placeholder-replacement` was moved from Line 78 to 76
-- `tm-ref-recursive-extensions` was moved from Line 79 to 77
-- `tm-tmRef-overwrite-possibility` was moved from Line 80 to 78
-- `tm-tmRef-overwrite-process` was moved from Line 81 to 79
-- `tm-tmRef-overwrite-semantic-meaning` was moved from Line 82 to 80
-- `tm-tmRef2` was moved from Line 83 to 81
-- `tm-versioning-1` was moved from Line 84 to 82
+- `td-bindings-requirements-scheme` was moved from Line 1 to 30
+- `td-bindings-server-accept` was moved from Line 2 to 31
+- `td-client-data-schema` was moved from Line 3 to 34
+- `td-client-data-schema-accept-extras` was moved from Line 4 to 35
+- `td-client-data-schema-no-extras` was moved from Line 5 to 36
+- `td-client-uri-template` was moved from Line 6 to 37
+- `td-context-default-language-direction-independence` was moved from Line 11 to 40
+- `td-default-alg` was moved from Line 12 to 87
+- `td-default-contentType` was moved from Line 13 to 89
+- `td-default-format` was moved from Line 14 to 91
+- `td-default-idempotent` was moved from Line 19 to 92
+- `td-default-in-apikey` was moved from Line 20 to 93
+- `td-default-in-basic` was moved from Line 21 to 94
+- `td-default-in-bearer` was moved from Line 22 to 95
+- `td-default-in-digest` was moved from Line 23 to 96
+- `td-default-observable` was moved from Line 65 to 97
+- `td-default-op-actions` was moved from Line 24 to 98
+- `td-default-op-events` was moved from Line 25 to 99
+- `td-default-op-properties` was moved from Line 26 to 100
+- `td-default-qop` was moved from Line 27 to 101
+- `td-default-readOnly` was moved from Line 28 to 102
+- `td-default-safe` was moved from Line 29 to 103
+- `td-default-success` was moved from Line 30 to 104
+- `td-default-writeOnly` was moved from Line 31 to 105
+- `td-expectedResponse-default-contentType` was moved from Line 32 to 128
+- `td-form-protocolbindings` was moved from Line 33 to 134
+- `td-format-validation-other-values` was moved from Line 34 to 136
+- `td-json-open` was moved from Line 35 to 139
+- `td-json-open_accept-byte-order` was moved from Line 36 to 140
+- `td-json-open_no-byte-order` was moved from Line 37 to 141
+- `td-ns-multilanguage-content-negotiation` was moved from Line 38 to 152
+- `td-ns-multilanguage-content-negotiation-no-multi` was moved from Line 39 to 153
+- `td-ns-multilanguage-content-negotiation-optional` was moved from Line 40 to 154
+- `td-privacy-auth-users-only` was moved from Line 47 to 169
+- `td-privacy-centralized-ids` was moved from Line 48 to 170
+- `td-privacy-essential-metadata-only` was moved from Line 49 to 174
+- `td-privacy-mutable-identifiers` was moved from Line 51 to 176
+- `td-privacy-temp-id-metadata` was moved from Line 52 to 177
+- `td-processor-bidi-isolation` was moved from Line 66 to 179
+- `td-processor-serialization` was moved from Line 41 to 180
+- `td-producer-mixed-direction` was moved from Line 67 to 181
+- `td-security-binding` was moved from Line 42 to 225
+- `td-security-body-name-json-pointer-creatable` was moved from Line 7 to 228
+- `td-security-body-name-json-pointer-type` was moved from Line 53 to 229
+- `td-security-extension` was moved from Line 68 to 233
+- `td-security-in-query-over-uri` was moved from Line 43 to 234
+- `td-security-inj-no-intl-markup` was moved from Line 54 to 236
+- `td-security-jsonld-expansion` was moved from Line 56 to 237
+- `td-security-mutual-auth-td` was moved from Line 57 to 239
+- `td-security-no-execution` was moved from Line 58 to 241
+- `td-security-no-extras` was moved from Line 44 to 242
+- `td-security-no-secrets` was moved from Line 45 to 244
+- `td-security-oauth-limits` was moved from Line 59 to 245
+- `td-security-remote-context` was moved from Line 60 to 251
+- `td-security-server-auth-td` was moved from Line 61 to 255
+- `td-security-static-context` was moved from Line 62 to 256
+- `td-server-data-schema` was moved from Line 8 to 261
+- `td-server-data-schema-extras` was moved from Line 9 to 262
+- `td-server-uri-template` was moved from Line 10 to 263
+- `td-text-direction-first-strong` was moved from Line 69 to 267
+- `td-text-direction-language-tag` was moved from Line 70 to 268
+- `td-vocabulary-defaults` was moved from Line 46 to 428
+- `tm-derivation-validity` was moved from Line 75 to 433
+- `tm-overwrite-interaction` was moved from Line 76 to 436
+- `tm-overwrite-types` was moved from Line 77 to 437
+- `tm-placeholder-replacement` was moved from Line 78 to 441
+- `tm-ref-recursive-extensions` was moved from Line 79 to 446
+- `tm-td-generation-processor-extends` was moved from Line 71 to 449
+- `tm-td-generation-processor-forms` was moved from Line 72 to 450
+- `tm-td-generation-processor-placeholder` was moved from Line 73 to 453
+- `tm-td-generation-processor-required` was moved from Line 74 to 454
+- `tm-tmRef-overwrite-possibility` was moved from Line 80 to 460
+- `tm-tmRef-overwrite-process` was moved from Line 81 to 461
+- `tm-tmRef-overwrite-semantic-meaning` was moved from Line 82 to 462
+- `tm-tmRef2` was moved from Line 83 to 465
+- `tm-versioning-1` was moved from Line 84 to 466
